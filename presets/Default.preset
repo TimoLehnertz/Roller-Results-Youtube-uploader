@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<Preset>
+	<inputs><input><name>Tags2</name><getter>JSONGetter</getter><setup>title</setup><stringFilter>WordsToCSV</stringFilter></input><input><name>Description</name><getter>JSONGetter</getter><setup>description</setup><stringFilter>None</stringFilter></input></inputs><title>{0}</title><description>{1}</description><tags>{1},{2}</tags><category>17</category><category>17</category><madeForChildren>false</madeForChildren><visibility>private</visibility><allowEmbedding>true</allowEmbedding>
+</Preset>

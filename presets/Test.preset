@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<Preset>
+	<inputs><input><name>Title</name><getter>JSONGetter</getter><setup>title</setup><stringFilter>None</stringFilter></input><input><name>Tags1</name><getter>JSONGetter</getter><setup>tags</setup><stringFilter>None</stringFilter></input><input><name>Tags2</name><getter>JSONGetter</getter><setup>title</setup><stringFilter>WordsToCSV</stringFilter></input><input><name>Description</name><getter>JSONGetter</getter><setup>description</setup><stringFilter>None</stringFilter></input></inputs><title>{0} | Inline Speedskating Channel</title><description>{3}</description><tags>{1},{2}</tags>
+</Preset>
