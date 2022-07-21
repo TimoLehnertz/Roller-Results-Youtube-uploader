@@ -46,7 +46,7 @@ public class GuiLogic {
 	private TemplateInputPanel activeTemplateInput;
 	private TaskListPanel taskList;
 	
-	private File clientSecrets = new File("client_secret_SpeedSkating_Channel.json");
+	private File clientSecrets = new File("clientsSecrets/client_secret_SpeedSkating_Channel.json");
 	private final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
 	private final Collection<String> SCOPES = Arrays.asList("https://www.googleapis.com/auth/youtube");
 	private static final String APPLICATION_NAME = "Inlinespeedskating Channel";

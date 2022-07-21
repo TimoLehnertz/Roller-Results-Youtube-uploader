@@ -35,7 +35,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/AlexL/eclipse-workspace/YoutubeBatchUploader"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/GuiX"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -196,8 +196,8 @@ public class YTVideo extends XBorderPanel {
         status.setEmbeddable(embeddable);
         status.set("selfDeclaredMadeForKids", isMadeForChildren());
         video.setStatus(status);
-        VideoProcessingDetails p = new VideoProcessingDetails();
-        video.setProcessingDetails(p);
+//        VideoProcessingDetails p = new VideoProcessingDetails();
+//        video.setProcessingDetails(p);
 
         // The maximum file size for this operation is 274877906944.
         InputStreamContent mediaContent = new InputStreamContent("application/octet-stream", new BufferedInputStream(new FileInputStream(videoFile)));
@@ -224,7 +224,7 @@ public class YTVideo extends XBorderPanel {
         Timer t = new Timer(1000, e -> { // status checker
 //        	System.out.println(vidResponse.getStatus().getUploadStatus());
 //        	vidResponse
-        	System.out.println(p);
+//        	System.out.println(p);
         	
 //        	System.out.println(vidResponse);
         });
